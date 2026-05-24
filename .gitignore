@@ -1,0 +1,87 @@
+# OS FILES
+.DS_Store
+Thumbs.db
+
+# LOG FILES
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ENV FILES
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE FILES
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# JAVA / MAVEN
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# SPRING BOOT
+*.class
+*.jar
+*.war
+*.ear
+
+# NODE / REACT
+node_modules/
+dist/
+build/
+coverage/
+
+# Vite
+vite.svg
+
+# TYPESCRIPT
+*.tsbuildinfo
+
+# DOCKER
+docker-data/
+
+# DATABASE FILES
+*.sql.gz
+*.dump
+
+# CACHE
+.cache/
+.parcel-cache/
+
+# TEST OUTPUT
+test-output/
+surefire-reports/
+
+# TEMP FILES
+tmp/
+temp/
+
+# SECURITY / KEYS
+*.pem
+*.key
+*.p12
+*.jks
+
+# MINIO / UPLOADS
+uploads/
+storage/
+
+# FRONTEND GENERATED FILES
+frontend/node_modules/
+frontend/dist/
+
+# BACKEND GENERATED FILES
+backend/target/
+
+# OPTIONAL - IGNORE LOCAL DOCKER OVERRIDES
+docker-compose.override.yml

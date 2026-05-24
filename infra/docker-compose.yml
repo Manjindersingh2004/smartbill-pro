@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:18-alpine
+    container_name: smartbill-postgres
+    environment:
+      POSTGRES_DB: smartbill
+      POSTGRES_USER: smartbill
+      POSTGRES_PASSWORD: smartbill123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql   # ✅ correct for PG 18+
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
